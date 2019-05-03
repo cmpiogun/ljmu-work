@@ -1,0 +1,98 @@
+/* Universal selector.  Giving all elements an initial 5 pixel padding and no margin */
+* {
+	padding: 5px;
+	margin: 0;
+}
+/* Selecting the 'container' division.  Setting a wide width of 960px layout for all
+   elements within the 'container' */
+#container {
+	margin: 0 auto;
+	width: 960px;
+}
+/* Selecting the 'container' division.  and giving it a 2px gray border */
+#container {
+	border: gray solid 2px;
+}
+/* Selecting the header, 'main_body' and the footer.  Giving each of these elements a 
+   black background colour */
+header, #main_body, footer {
+	background-color: black;
+}
+/* header selector.  Setting it to have a minimum height of 40 pixels and a bottom margin
+   of 5 pixels in order to put some space between it and the 'main_body' */
+header {
+	min-height: 50px;
+	margin-bottom: 5px;
+}
+/* body selector. giving it a background image*/
+body{
+	background-image: url(Power_On_-_texture.jpg)
+}
+/* Division Main-Body selector. setting it to a height of 450px and a margin-bottom of 5px */
+#main_body {
+	min-height: 450px;
+	margin-bottom: 5px;
+}
+/* Footer selector. setting it to a Min-height of 10px and a 4px Gray border */
+footer {
+	min-height: 10px;
+	border: gray solid 4px;
+}
+/*Header 1 selector. setting it to a font-size of 24pt, displaying inline-block and setting the colour to #0BDC00 */
+header h1 {
+	color: #0BDC00;
+	font-size: 24pt;
+	display: inline-block;
+	vertical-align: middle;
+	font-family: Black Ops One;
+	text-shadow: 2px 2px 1px gray;
+}
+/* a text decorator that takes away the Hyper-link underline */
+a {
+	text-decoration:none;
+	color: #0BDC00;
+}
+/* The Website Logo selector. setting it to a height of 40px and floats to the right, also positioned relatively at 50px from the bottom*/
+header img {
+	height: 40px;
+	vertical-align: middle;
+	float: right;
+	display: inline;
+	position: relative;
+	bottom: 50px;
+}
+/* The sub-title selector. setting the colour to #43ED3B with a font size of 18pt */
+#main_body h2 {
+	color: #43ED3B;
+	font-size: 18pt;
+}
+/* The division sub-title selector. which floats to the right and displays in block */
+#bottom_col  h2{
+	float: right;
+	display: block;
+}
+/* The division sub-title selector. which floats to the right and displays in block */
+#left_col h2{
+	float: right;
+	display: block;
+}
+/* The division main-body paragraph selector. setting the colour to #70ED69, with a font-family of 'Bitter', 
+	a font-size of 12pt and displays inline-block*/
+#main_body p {
+	color: #70ED69;
+	font-family: 'Bitter', serif;
+	font-size: 12pt;
+	display: inline-block
+}
+/* footer selector.  which centres the texts in the footer */
+footer ul {
+	text-align: center;
+}
+/* footer selector.  displays the texts inline, with the font-size of 18pt and a colour white */
+footer ul li {
+	list-style-type: none;
+	display: inline;
+	font-size: 10pt;
+	color: white;
+}
+

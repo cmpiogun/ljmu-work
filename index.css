@@ -1,0 +1,131 @@
+/* Universal selector.  Giving all elements an initial 5 pixel padding and no margin */
+*{ padding: 5px;
+   margin: 0;
+}
+/*Header heading selector, setting the heading the colour green with a font-family of Black Ops One, and designed with text-shadow of 2px blue colour */
+header h1{ font-family: Black Ops One;
+		color: #0BDC00;
+		font-size: 200%;
+		text-align: middle;
+		text-shadow: 2px 2px 1px blue;
+}
+/*Header image selector, setting the image height at 40px and displaying inline with the header title */
+header img {
+	height: 40px;
+	vertical-align: middle;
+	display: inline-block;
+}
+/* body selector.  setting the background colour of the whole page to black */
+body {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #000000;
+}
+/* Selecting the 'container' division.  Setting a wide width layout for all
+   elements within the 'container' */
+#container {
+	margin: 0 auto;
+	width: 1290px;
+	height: 630px;
+	margin-bottom: 1px;
+}
+/* header selector.  Setting it to have a minimum height of 40 pixels and a bottom margin
+   of 5 pixels in order to put some space between it and the 'main_body', it also has a blue border of 4px */
+header {
+	min-height: 40px;
+	margin-bottom: 5px;
+	border: blue solid 4px;
+}
+/* Selecting 'main_body' division.  Setting it to have a minimum height of 450 pixels and 
+   a bottom margin of 5 pixels in order to put some space between it and the 'main_body' it also has a solid blue border and a centred background image*/
+#main_body {
+	min-height:450px;
+	margin-bottom: 5px;
+	border: blue solid 4px;
+	background-image: url(Computer_inside.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/* h2 selector, setting the font-family as Black Ops One, with a font-size of 18pt and a text-shadow of blue */
+#main_body h2 {
+	font-family: Black Ops One;
+	color: #43ED3B;
+	font-size: 18pt;
+	text-shadow: 2px 2px 1px blue;
+}
+/* Division selector that selects all the social media icons in the header, floated right and positioned 60px relatively from the bottom */
+#social_media{ 
+	float: right;
+	position: relative;
+	bottom: 60px;
+}
+/* a text decorator that takes away the Hyper-link underline */
+a {
+	text-decoration:none;
+	color: #0BDC00;
+}
+/*Product System Division selector, given a width of 250px and floats left, also positioned relatively at -4px from the left with an opacity of 0.7*/
+#left_col{
+	margin: 0 auto;
+	width: 250px;
+	min-height: 100px;
+	background-color: black;
+	opacity: 0.7;
+	border:gray solid 2px;
+	float: left;
+	position: relative;
+	left: -4px;
+}
+/*Address and Contacts Division selector, given a width of 250px and floats right, also positioned relatively at 140px from the top and 212px from the left, with an opacity of 0.7*/
+#right_col{
+	margin: 0 auto;
+	width: 250px;
+	min-height: 100px;
+	background-color: black; 
+	opacity: 0.7;
+	border: gray solid 2px;
+	float: right;
+	position: relative;
+	top: 140px;
+	left: 212px;
+}
+/*The Team Division selector, given a width of 250px and a Min-height of 100px which floats on the left, also positioned relatively at 320px from the top, with an opacity of 0.7, also surrounded by a gray border*/
+#bottom_col{
+	margin: 0 auto;
+	width: 250px;
+	min-height: 100px;
+	background-color: black;
+	opacity: 0.7;
+	border:gray solid 2px;
+	position: relative;
+	top: 320px;
+	right:268px;
+	float: left;
+}
+/* Selecting the header, 'main_body' and the footer.  Giving each of these elements a 
+   black background colour */
+header, #main_body, footer {
+	background-color: black; 
+}
+/* Selecting the 'container' and setting a solid blue border  */
+#container {
+	border: blue solid 5px;
+}
+/* Footer Selector. setting the text in the footer to a size-font of 10pt, a white colour and positioned relatively 550px from the left*/
+footer ul li {
+list-style-type: none;
+display: inline;
+font-size: 10pt;
+color: white;
+position: relative;
+left: 550px;
+}
+/* footer selector.  Setting it to have a minimum height of 50 pixels with a solid blue border and also a margin of 5px*/
+footer{
+	min-height:50px;
+	border: blue solid 4px;
+	margin-bottom: 5px;
+	position: relative;
+	bottom: 15px;
+}
+
